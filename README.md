@@ -33,4 +33,30 @@ docker-compose up --build
 Al levantar los contenedores, la api estara disponible en la siguiente ruta http://localhost:3000/...., puedes interactuar usando thunder client
 
 ### 4. Explicacion de los endpoints
-Para mostrar utiliza el siguiente comando 
+Para mostrar utiliza el siguiente enlace
+```bash
+http://localhost:3000/productos
+```
+
+Para agregar utiliza el siguiente enlace
+```bash
+http://localhost:3000/productos
+```
+El cuerpo del json es el siguiente, cambia los datos segun las necesidades
+```bash
+{
+  "nombre": "Producto Ejemplo",
+  "descripcion": "Descripción del producto ejemplo",
+  "precio": 99.99,
+  "stock": 10
+}
+```
+Para el actualizar utiliza el siguiente enlace y el mismo cuerpo del agregar
+```bash
+http://localhost:3000/productos/:id
+```
+Para el eliminar usa el siguiente enlace 
+```bash
+http://localhost:3000/productos/:id
+```
+
