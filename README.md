@@ -60,4 +60,3 @@ Para el eliminar usa el siguiente enlace
 ```bash
 http://localhost:3000/productos/:id
 ```
-
