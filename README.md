@@ -23,16 +23,17 @@ Primero, clona el repositorio en tu máquina local:
 ```bash
 git clone https://github.com/tu-usuario/microservicio_de_productos.git
 ```
-Una vez estando dentro de la carpeta, ejecuta el siguiente comando
-### 2. Construir y ejecutar los contenedores Docker
+## Microservicio 1
+Una vez estando dentro de la carpeta, Microservicio_1 ejecuta el siguiente comando
+### 1. Construir y ejecutar los contenedores Docker
 ```bash
 docker-compose up --build
 ```
 
-### 3. Acceso a la API
+### 2. Acceso a la API
 Al levantar los contenedores, la api estara disponible en la siguiente ruta http://localhost:3000/...., puedes interactuar usando thunder client
 
-### 4. Explicacion de los endpoints
+### 3. Explicacion de los endpoints
 Para mostrar utiliza el siguiente enlace
 ```bash
 http://localhost:3000/productos
